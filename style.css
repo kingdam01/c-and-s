@@ -624,6 +624,7 @@ header{
                 gap: 30px;
                 margin-bottom: 20px;
                 width: 350px;
+                background-color: red;
             }
 
             .left {
