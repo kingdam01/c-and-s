@@ -619,12 +619,15 @@ header{
             width: 200px;
         }
         header{
+
+            border: 1px solid;
             .right{
+                border: 1px solid;
                 flex-direction: column;
                 gap: 30px;
                 margin-bottom: 20px;
                 width: 350px;
-                background-color: red;
+                /* background-color: red; */
             }
 
             .left {
