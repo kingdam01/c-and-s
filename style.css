@@ -1,0 +1,653 @@
+body{
+    margin: 0px;
+    padding: 0px;
+
+
+    p{
+        font-size: 18px;
+        color: grey;
+    }
+}
+header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color:#0092E7 ;
+}
+.left{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+    img{
+        width: 100px;
+    }
+
+    P{
+        color: white;
+    }
+}
+.right{
+    width:450px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+
+    a{
+        color: white;
+        text-decoration: none;
+    }
+
+    button{
+        width: 70px;
+        height: 30px;
+        border-radius: 30px;
+        font-size: 11px;;
+        border: none;
+    }
+} 
+.text{
+     background-image: url(assest/images/cs/FOUNDER.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h1{
+        font-size: 60px;
+        color: white;
+    }
+
+
+    button{
+        height: 40px;
+        border-radius: 20px;
+        background-color:#0092E7 ;
+        width: 180px;
+        border: none;
+        color: white;
+    }
+}
+#second{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 30px;
+
+}
+.core{
+
+    
+
+    h3{
+        color: #0092E7;
+        font-size: 23px;
+    }
+
+
+    p{
+        line-height: 10px;
+    }
+}
+.vision{
+
+    h3{
+        color: #0092E7;
+        font-size: 23px;
+    }
+
+}
+.mission{
+
+
+    h3{
+        color: #0092E7;
+        font-size: 23px;
+    }
+
+    p{
+        line-height: 25px;
+    }
+}
+#third{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 30px;
+
+
+    img{
+        width: 300px;
+    }
+
+
+    p{
+        text-align: justify;
+    }
+
+    background-color: #f5f5f5;
+}
+.words{
+    width: 50%;
+
+    h1{
+        color: #0092E7;
+    }
+
+
+    h4{
+        color: red;
+    }
+
+    p{
+        line-height: 25px;
+    }
+}
+.up{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h1{
+        color: #0092E7;
+    }
+
+    p{
+        color: red;
+    }
+}
+.joint{
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5;
+    border-radius: 15px;
+    border: none;
+
+    p{
+        color: red;
+        text-align: center;
+    }
+    h3{
+        font-size: 22px;
+    }
+}
+.days{
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 405px;
+    background-color: #f5f5f5;
+    border-radius: 15px;
+    border: none;
+
+     h3{
+        font-size: 22px;
+    }
+
+    P{
+        color: red;
+    }
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.end{
+    background-image: url(assest/images/cs/FOUNDER.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h1{
+        text-align: center;
+        color: white;
+        font-size: 40px;
+    }
+
+    h4{
+        color: white;
+    }
+
+    button{
+        width: 200px;
+        height: 50px;
+        border-radius: 30px;
+        font-size: 11px;
+        border: none;
+        background-color: #0092E7;
+        color: white;
+    }
+}
+.latest{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h2{
+        font-size: 50px;
+        color: #0092E7;
+    }
+    p{
+        font-size: 20px;
+        margin-top: -30px;
+        color: red;
+    }
+}
+.one{
+    width: 550px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border-radius: 15px;
+    border: none;
+
+    img{
+        width: 130px;
+        border-radius: 10px;
+    }
+}
+.two{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border-radius: 15px;
+    border: none;
+}
+.overall{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.btn{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   margin-top: 10px ;
+
+   button{
+    width: 200px;
+    height: 60px;
+    border-radius: 20px;
+    color: white;
+    background-color: #0092E7;
+    border: none;
+   }
+}
+.seed{
+    
+    img{
+        width: 500px;
+    }
+}
+.last{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+.work{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 651px;
+    height: 560px;
+    
+
+
+
+
+    h5{
+        color: red;
+        font-size: 19px;
+    }
+    p{
+        color: black;
+        font-size: 30px;
+    }
+    button{
+        padding: 10px;
+        border-radius: 15px;
+        border: none;
+        color: white;
+        background-color: #0092E7;
+    }
+}
+#seven{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+    background-color: #f5f5f5;
+    margin: 0px auto;
+    padding: 30px;
+
+    img{
+        border-radius: 10px;
+    }
+
+}
+.mad{
+
+    h5{
+        font-size: 30px;
+    }    
+
+    p{
+        font-size: 18px;
+        margin-top: -20px;
+    }
+
+    button{
+        font-size: 11px;
+        width: 200px;
+        padding: 10px;
+        border-radius: 10px;
+        border: transparent;
+        background-color: #0092E7;
+        color: white;
+    }
+}
+.watch{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    p{
+        margin-top: -17px;
+        color: white;
+    }
+
+    h2{
+        font-size: 37px;
+        color: white;
+    }
+}
+#eight{
+    background-color: #0092E7;
+    margin-top: -3.9px;
+    padding: 20px;
+}
+.live{
+    background-color: white;
+    width: 350px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px ;
+    border: none;
+
+    p{
+        text-align: center;
+        color: black;
+        font-size: 20px;
+    }
+}
+.pic{
+    background-color: white;
+    width: 350px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    border: none;
+
+    p{
+        text-align: center;
+        color: black;
+        font-size: 20px;
+    }
+}
+.holder{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#last{
+    border: 1px solid;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(22, 22, 34);
+
+    p{
+        color: white;
+    }
+}
+.cs{
+    border: 1px solid;
+}
+.contact{
+    border: 1px solid;
+}
+   .c{
+    font-size: 20px;
+    font-weight: bolder;
+   }
+    #na{
+        font-size: 13px;
+    }
+
+.quick{
+    border: 1px solid;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    a{
+        display: flex;
+        flex-direction: column;
+        color: white;
+        text-decoration: none;
+        line-height: 25px;
+    
+    }
+}
+.follow{
+    border: 1px solid;
+
+
+}
+@media screen and (max-width:755px) {
+    .holder{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+    
+}
+@media screen and (max-width:1029px) {
+    .overall{
+        gap: 30px;
+    }   
+}
+@media screen and (max-width:799px) {
+    .latest{
+
+        p{
+            text-align: center
+        };
+    }
+}
+@media screen and (max-width:396px){
+    .days{
+
+        p{
+            text-align: center;
+        }
+    }
+}
+@media screen and (max-width:450px) {
+    #second{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    header{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .words{
+        h1{
+            text-align: center;
+        }
+
+        h4{
+            text-align: center;
+        }
+    }
+    .one{
+        justify-content: center;
+        align-items: center;
+
+        .me{
+            h4,p{
+                text-align: center;
+
+            }
+        }
+    }
+    .two{
+        justify-content: center;
+        align-items: center;
+
+
+        .me{
+
+            h4,p{
+                text-align: center;
+            }
+        }
+    }
+    .btn{
+        margin-bottom: 10px;
+    }
+    #seven{
+        margin: 0px auto;
+
+        .seed img{
+            width: 350px;
+        }
+
+        p{
+            text-align: center;
+        }
+
+        button{
+            margin-left: 30px;
+        }
+    }
+    .watch{
+        p{
+            text-align: center;
+        }
+    }
+    #last{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .contact{
+            p{
+                text-align: center;
+            }
+        }
+        .quick{
+            text-align: center;
+        }
+
+        img{
+            width: 100px;
+            margin-top: 20px;
+        }
+    }
+
+    
+}
+
+@media screen and (max-width:350px) {
+     #seven .seed img{
+            width: 200px;
+        }
+        header{
+            .right{
+                flex-direction: column;
+                gap: 30px;
+                margin-bottom: 20px;
+                width: 350px;
+            }
+
+            .left {
+                flex-direction: column;
+                text-align: center;
+            
+                img{
+                    width: 100px;
+                }
+
+                p{
+                    font-size: 15px;
+                }
+            }
+        }
+        #third{
+            img{
+                width: 300px;
+            }
+        }
+}
+@media screen and (max-width:850px) {
+    header{
+        justify-content: center;
+        align-items: center;
+    }
+}
