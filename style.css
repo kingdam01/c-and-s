@@ -402,6 +402,13 @@ header{
         color: white;
     }
 }
+#third{
+    .image{
+        img{
+            border-radius: 10px;
+        }
+    }
+}
 #eight{
     background-color: #0092E7;
     margin-top: -3.9px;
@@ -519,6 +526,11 @@ header{
 @media screen and (max-width:396px){
     .days{
 
+        p{
+            text-align: center;
+        }
+    }
+    .up{
         p{
             text-align: center;
         }
@@ -725,6 +737,18 @@ header{
     .cs{
         img{
             width: 100px;
+        }
+    }
+}
+@media screen and (max-width:480px) {
+    .up{
+        p{
+            text-align: center;
+        }
+    }
+    .days{
+        p{
+            text-align: center;
         }
     }
 }
