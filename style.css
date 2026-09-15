@@ -450,7 +450,7 @@ header{
     align-items: center;
 }
 #last{
-    border: 1px solid;
+    /* border: 1px solid; */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -462,10 +462,10 @@ header{
     }
 }
 .cs{
-    border: 1px solid;
+    /* border: 1px solid; */
 }
 .contact{
-    border: 1px solid;
+    /* border: 1px solid; */
 }
    .c{
     font-size: 20px;
@@ -476,7 +476,7 @@ header{
     }
 
 .quick{
-    border: 1px solid;
+    /* border: 1px solid; */
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -491,7 +491,7 @@ header{
     }
 }
 .follow{
-    border: 1px solid;
+    /* border: 1px solid; */
 
 
 }
@@ -575,7 +575,7 @@ header{
         margin: 0px auto;
 
         .seed img{
-            width: 350px;
+            width: 300px;
         }
 
         p{
@@ -620,9 +620,9 @@ header{
         }
         header{
 
-            border: 1px solid;
+            /* border: 1px solid; */
             .right{
-                border: 1px solid;
+                /* border: 1px solid; */
                 flex-direction: column;
                 gap: 30px;
                 margin-bottom: 20px;
@@ -653,5 +653,78 @@ header{
     header{
         justify-content: center;
         align-items: center;
+    }
+}
+@media screen and (max-width:420px) {
+    #heropage{
+        header{
+            /* border: 1px solid; */
+
+            .right{
+                /* border: 1px solid; */
+                /* background-color: red; */
+                width: 330px;
+
+                font-size: 11px;
+            }
+        }
+    }
+
+   .watch{
+    p{
+        text-align: center;
+    }
+
+    h2{
+        text-align: center;
+    }
+   }
+   .live{
+    width: 300px;
+   }
+   .pic{
+    width: 300px;
+   }
+
+   /* #container{
+    background-color: red;
+   } */
+
+   /* .seed{
+    img{
+        width: 200px;
+    }
+   } */
+}
+@media screen and (max-width:450px) {
+    #heropage{
+        header{
+            /* border: 1px solid; */
+
+            .right{
+                /* border: 1px solid; */
+                /* background-color: red; */
+                width: 330px;
+
+                font-size: 11px;
+            }
+        }
+    }
+}
+@media screen and (max-width:885px) {
+    #heropage{
+        header{
+            /* border: 1px solid; */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+    .cs{
+        img{
+            width: 100px;
+        }
     }
 }
